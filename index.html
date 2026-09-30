@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arch Studio - Support</title>
+    <meta name="description" content="Arch Studio - Hand-crafted toy bridges. Swap the cards, raise the arch.">
+    <style>
+        :root {
+            --bg: #0f1419;
+            --bg-soft: #1a2129;
+            --primary: #d4a574;
+            --primary-soft: #e8c9a0;
+            --text: #f5f1ea;
+            --text-soft: #a8a8a8;
+            --border: #2a3340;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-soft);
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+        .card {
+            background: var(--bg-soft);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 22px;
+            color: var(--primary-soft);
+            margin-bottom: 16px;
+        }
+        p {
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+        .feature {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .feature-title {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .feature-desc {
+            font-size: 14px;
+            color: var(--text-soft);
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        .link-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: var(--bg);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .link-btn:hover {
+            background: var(--primary-soft);
+        }
+        .email {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .email:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🌉</div>
+            <h1>Arch Studio</h1>
+            <p class="subtitle">Hand-crafted toy bridges · Swap the cards · Raise the arch</p>
+        </header>
+
+        <section class="card">
+            <h2>About Arch Studio</h2>
+            <p>Arch Studio is a premium puzzle atelier for iPhone — a calm table of toy cards and toy cars, twenty hand-designed bridges deep. Players swap adjacent cards to raise and dismantle toy bridge arches; each card's value shapes how high the arch stands, and adjacent cards bundle together so a tiny car can roll the full route.</p>
+            <p>Same-color chains form Misty-grade transitions, and every closed route sends a smooth car animation across the deck. Four landscape packs — Coastal River, Mountain Gorge, City Skyline, and Twilight Canyon — unlock progressively and reward thoughtful planning over speed.</p>
+        </section>
+
+        <section class="card">
+            <h2>What's Inside</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-title">20 Bridges</div>
+                    <div class="feature-desc">Four landscape packs, fully seeded and ready to play.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Two-Player Mode</div>
+                    <div class="feature-desc">Hot-seat matches settle on the dedicated results pane.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Free-Build Atelier</div>
+                    <div class="feature-desc">Sketch your own arches and watch them validate live.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Custom Deck Builder</div>
+                    <div class="feature-desc">Turn your photos into personal bridge tiles.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Bridge Gallery</div>
+                    <div class="feature-desc">Every crossing recorded with stars, moves, and time.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Records &amp; Progress</div>
+                    <div class="feature-desc">Track pack progress, best times, and totals.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Privacy Promise</h2>
+            <p>Arch Studio ships with no accounts, no in-app purchases, no advertising, no notifications, and no tracking. Every metric lives on-device only. A one-tap Reset wipes all progress for the next player. Custom deck photos stay inside a private deck and are never uploaded to a server.</p>
+            <div class="links">
+                <a class="link-btn" href="privacy.html">Read Privacy Policy</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Need Help?</h2>
+            <p>If you have questions, feedback, or run into an issue while playing, the team is happy to help. Reach out any time and we'll get back to you.</p>
+            <p><strong>Support Email:</strong> <a class="email" href="mailto:dhfu94086@gmail.com">dhfu94086@gmail.com</a></p>
+            <div class="links">
+                <a class="link-btn" href="support.html">Support Center</a>
+                <a class="link-btn" href="terms.html">Terms of Use</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Arch Studio. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

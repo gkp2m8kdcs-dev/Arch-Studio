@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Arch Studio</title>
+    <style>
+        :root {
+            --bg: #0f1419;
+            --bg-soft: #1a2129;
+            --primary: #d4a574;
+            --primary-soft: #e8c9a0;
+            --text: #f5f1ea;
+            --text-soft: #a8a8a8;
+            --border: #2a3340;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+        .card {
+            background: var(--bg-soft);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            color: var(--primary-soft);
+            margin-bottom: 12px;
+        }
+        p {
+            color: var(--text);
+            margin-bottom: 14px;
+        }
+        .faq {
+            margin-top: 8px;
+        }
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .faq-q {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .faq-a {
+            color: var(--text-soft);
+            font-size: 15px;
+        }
+        .email {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .email:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            text-align: center;
+            margin-top: 12px;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+            h1 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="back" href="index.html">&larr; Back to Home</a>
+        <header>
+            <h1>Support</h1>
+            <p class="subtitle">Help, FAQ, and contact details for Arch Studio</p>
+        </header>
+
+        <section class="card">
+            <h2>Contact Us</h2>
+            <p>For any question, feedback, or issue, please email us. We do our best to reply within a few business days.</p>
+            <div class="contact-box">
+                <p style="margin:0;">Support Email</p>
+                <p style="margin:0;"><a class="email" href="mailto:dhfu94086@gmail.com">dhfu94086@gmail.com</a></p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <div class="faq-item">
+                    <div class="faq-q">How do I play?</div>
+                    <div class="faq-a">Tap any card to swap it with an adjacent card. Build adjacent same-color chains to raise the arch and create a closed route for the toy car to cross.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Where is my progress stored?</div>
+                    <div class="faq-a">All progress lives locally on your iPhone. Arch Studio does not sync progress to any server.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">How do I reset everything?</div>
+                    <div class="faq-a">Open the app, go to Settings, and tap Reset. All stars, times, gallery entries, custom tiles, and free-build levels will be cleared.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Can I build a deck from my own photos?</div>
+                    <div class="faq-a">Yes. Open the Deck Builder, grant photo permission when prompted, and pick any photo from your library. It becomes a personal tile inside your private deck.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Does the app need an internet connection?</div>
+                    <div class="faq-a">No. Arch Studio is fully offline. There are no accounts, no ads, and no background network calls.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">How does the two-player mode work?</div>
+                    <div class="faq-a">Two players take turns on the same board, hot-seated. The dedicated results pane shows stars and time for each player.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Can I delete a custom tile?</div>
+                    <div class="faq-a">Yes. Open the Deck Builder, find the tile you want to remove, and swipe it away. It is removed from your device immediately.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">What devices are supported?</div>
+                    <div class="faq-a">Arch Studio runs on iPhone with iOS 16.1 or later, in portrait orientation.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Reporting a Bug</h2>
+            <p>When emailing us about a problem, please include:</p>
+            <p>1. Your iPhone model and iOS version.<br>
+            2. The screen or level where the issue occurred.<br>
+            3. A short description of what happened and what you expected to happen.</p>
+            <p>Send the details to <a class="email" href="mailto:dhfu94086@gmail.com">dhfu94086@gmail.com</a> and we will investigate.</p>
+        </section>
+
+        <section class="card">
+            <h2>Feedback &amp; Suggestions</h2>
+            <p>We love hearing from players. Ideas for new bridge packs, new themes, accessibility improvements, or polish suggestions are all welcome. Drop a line any time.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Arch Studio. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
